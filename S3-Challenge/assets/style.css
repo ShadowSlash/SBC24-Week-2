@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family:'sans-serif';
     text-decoration: none;
-    list-style: none;
 }
 
 /* Header */
@@ -171,7 +170,7 @@
     margin-right: 5px;
 }
 
-/* Contact - Contact Form */
+/* Contact-Page / Contact Form */
 
 #getcontact {
     background-color: rgb(237, 232, 208, .6);
@@ -219,3 +218,24 @@ input::placeholder-shown {
     content: "✉️";
     font-size: 15px;
 }
+
+/* About-Page */
+
+.info {
+    display:block;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+/* Accommondation-Page */
+
+.place-stay {
+    display:block;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+/* Attractions-Page */
+
