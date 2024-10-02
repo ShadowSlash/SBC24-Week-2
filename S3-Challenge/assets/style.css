@@ -260,19 +260,25 @@
 .tourismpic {
     width: 90%;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /* Accommondation-Page */
 
 .place-stay {
-    display: flex;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    margin-left: 150px;
+    display: block;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-top: 60px;
+    background-color: rgb(237, 232, 208, .6);
+    margin-top: 90px;
+
 }
 
 .place-stay h1 {
     margin-bottom: 50px;
+    font-size: 50px;
 }
 
 .place-stay h2 {
@@ -281,11 +287,39 @@
 
 .place-stay p {
     margin-bottom: 25px;
+    width: 60%;
 }
 
 .place-stay ul li {
     margin-bottom: 25px;
+    margin-left: 20px;
 }
 
+#showcase {
+    display: flex;
+}
+
+#showcase ul li {
+    width: 60%;
+}
+
+.hotelpic {
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.airbnbpic {
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.campingpic {
+    width: 60%;
+    padding-bottom: 15px;
+}
+
+#book {
+    padding-bottom: 45px;
+}
 /* Attractions-Page */
 
