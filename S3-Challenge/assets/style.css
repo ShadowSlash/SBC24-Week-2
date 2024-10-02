@@ -214,27 +214,77 @@
     resize: none;
 }
 
-input::placeholder-shown {
-    content: "✉️";
-    font-size: 15px;
-}
-
-/* About-Page */
+/* Discover-Page */
 
 .info {
-    display:block;
-    margin-top: 150px;
+    display: block;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-top: 60px;
+    background-color: rgb(237, 232, 208, .6);
+    margin-top: 90px;
+    
+}
+
+.info h1 {
     margin-bottom: 50px;
-    margin-left: 150px;
+    font-size: 50px;
+}
+
+.info h2 {
+    margin-bottom: 15px;
+}
+
+.info p {
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+#info2 {
+    width: 60%;
+}
+
+.info ul li {
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.overviewpic {
+    float: inline-end;
+    width: 35%;
+    margin-right: 150px;
+    margin-left: 50px;
+    height: auto;
+}
+
+.tourismpic {
+    width: 90%;
+    margin-top: 25px;
 }
 
 /* Accommondation-Page */
 
 .place-stay {
-    display:block;
+    display: flex;
     margin-top: 150px;
     margin-bottom: 50px;
     margin-left: 150px;
+}
+
+.place-stay h1 {
+    margin-bottom: 50px;
+}
+
+.place-stay h2 {
+    margin-bottom: 15px;
+}
+
+.place-stay p {
+    margin-bottom: 25px;
+}
+
+.place-stay ul li {
+    margin-bottom: 25px;
 }
 
 /* Attractions-Page */
